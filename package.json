@@ -1,9 +1,10 @@
 {
   "name": "prayer-chatbot",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node lib/core.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,8 +12,8 @@
   "dependencies": {
     "bluebird": "^3.5.0",
     "mongodb": "^2.2.26",
-    "mongodb-bluebird": "^0.1.1",
     "mongoose": "^4.9.6",
+    "node-schedule": "^1.2.1",
     "node-telegram-bot-api": "^0.27.1"
   }
 }
